@@ -1,14 +1,13 @@
 <!--
  * @Date: 2020-05-07 21:19:16
  * @LastEditors: lifangdi
- * @LastEditTime: 2020-05-07 22:51:54
+ * @LastEditTime: 2020-05-07 23:01:26
  -->
 <template>
   <div>
     <img class="back" src="../assets/back.png" />
     <div class="mask"></div>
     <div class="top">
-      <img class="logo" src="../assets/school.png"/>
       <el-button class="list-btn" @click="isDrawerShow = true" type="primary">搜索列表</el-button>
     </div>
     <el-drawer
@@ -78,12 +77,6 @@ export default {
       value: ''
     }
   },
-  methods: {
-
-  },
-  mounted() {
-    console.log(this.options)
-  }
 }
 </script>
 
@@ -107,7 +100,7 @@ export default {
   .top {
     height: 60px;
     width: 100%;
-    background: #fff;
+    /* background: #fff; */
     /* padding: 0 50px; */
   }
   .logo {
@@ -117,8 +110,8 @@ export default {
   }
   .list-btn {
     float: right;
-    margin-right: 80px;
-    margin-top: 10px;
+    margin-right: 50px;
+    margin-top: 20px;
     cursor: pointer;
   }
   .list-container {
