@@ -1,14 +1,14 @@
 <!--
  * @Date: 2020-05-07 21:19:16
  * @LastEditors: lifangdi
- * @LastEditTime: 2020-05-07 23:01:26
+ * @LastEditTime: 2020-05-07 23:08:14
  -->
 <template>
   <div>
     <img class="back" src="../assets/back.png" />
     <div class="mask"></div>
     <div class="top">
-      <el-button class="list-btn" @click="isDrawerShow = true" type="primary">搜索列表</el-button>
+      <el-button class="list-btn" @click="isDrawerShow = true" type="primary">资料列表</el-button>
     </div>
     <el-drawer
       class="list-container"
